@@ -1,1 +1,383 @@
-/* место для вашего кода */
+.header_section {
+  width: 1048px;
+  height: 105px;
+  padding-right: 24px;
+  padding-top: 88px;
+  margin: auto;
+  font-size: 18px;
+  display: grid;
+  padding-bottom: 205px;
+}
+
+.header-logo-black {
+  width: 137px;
+  height: 117px;
+  display: block;
+  margin-right: 178px;
+  margin-left: 10px;
+}
+
+.cover {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  flex-direction: row;
+  align-content: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  padding-right: 31px;
+  white-space: nowrap;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 34px;
+}
+
+.menu_contacts {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  white-space: nowrap;
+  line-height: 25px;
+  padding-top: 8px;
+  padding-left: 12px;
+}
+
+.style-line {
+  list-style: none;
+  padding-bottom: value;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.navigation__start {
+  margin-right: 30px;
+  padding-left: -1px;
+  margin-left: 26px;
+}
+
+.a_number {
+  word-spacing: 1px;
+  letter-spacing: -0.02em;
+}
+
+li {
+  list-style-type: circle;
+}
+
+.menu-item {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.overlay-div {
+  background-image: url(/ono-tebe-nado/images/cover.jpg);
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 757px;
+  width: 1100px;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+}
+
+.overlay_title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 130px;
+}
+
+.cover_descripton {
+  display: flex;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+  gap: 81px;
+  bottom: 2px;
+  left: 77px;
+  align-items: center;
+}
+
+.cover_title {
+  display: flex;
+  color: white;
+  padding-top: 163px;
+  font-size: 68px;
+  padding-left: 50px;
+  letter-spacing: 27px;
+  font-weight: 700;
+}
+
+.span_space-o {
+  margin-left: -20px;
+}
+
+.aligned_text {
+  display: block;
+  margin-top: 20px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.aligned_text-center {
+  display: flex;
+  position: relative;
+  right: 3px;
+  bottom: 3px;
+  color: rgb(255, 255, 255);
+  font-size: 68px;
+  letter-spacing: 29px;
+  justify-content: space-around;
+}
+
+.aligned_text-right {
+  display: flex;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 68px;
+  letter-spacing: 28px;
+  right: 22px;
+  bottom: 7px;
+  justify-content: flex-end;
+}
+
+.bet-button {
+  padding: 12px 32px;
+  color: #fff;
+  background: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  word-spacing: -4px;
+}
+
+.span_space-E {
+  position: relative;
+  right: 25px;
+}
+
+.span_space-н-right {
+  position: relative;
+  right: 31px;
+}
+
+.lots__heading {
+  display: flex;
+  font-size: 27px;
+  padding-left: 39px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.lots {
+  padding: 179px 24px 0;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  height: 100%;
+  flex-direction: column;
+  padding: 52px 39px 45px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.lots__card-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+  min-height: 563px;
+  margin-top: 27px;
+}
+
+.card__text {
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 0;
+  z-index: 1;
+  color: #fff;
+  padding-left: 1px;
+  text-align: left;
+}
+
+.card__title {
+  text-align: left;
+  text-decoration-skip-ink: none;
+  text-decoration: underline;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  max-height: 563px;
+  list-style-type: none;
+  display: flex;
+}
+
+.card__text-film {
+  padding-top: 242px;
+}
+
+.card__text-book {
+  padding-top: 1px;
+}
+
+.card__text-picture {
+  padding-top: 95px;
+}
+
+.card_type_film {
+  background-image: url(/ono-tebe-nado/images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(/ono-tebe-nado/images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(/ono-tebe-nado/images/card-lot-03.jpg);
+}
+
+.lots__look-more-link {
+  display: inline-block;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 40px;
+  text-decoration: underline;
+  border-bottom: 0px solid;
+  text-underline-offset: 4px;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: .5px;
+}
+
+.about {
+  display: flex;
+  padding-top: 184px;
+  padding-left: 72px;
+  gap: 73px;
+  margin-bottom: 100px;
+}
+
+
+
+.about__logo {
+  display: flex;
+    align-items: center;
+    background-color: black;
+    height: 240px;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.about__logo-image {
+  background-color: black;
+  height: 114px;
+  width: 158px;
+}
+
+
+.about__title {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0px;
+  word-spacing: -2px;
+  padding-top: 37px;
+}
+
+.about__text {
+  display: flex;
+    font-size: 20px;
+    bottom: -13px;
+    width: 693px;
+    height: 45px;
+    padding-right: 1px;
+
+
+}
+
+
+.about__column {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 62px;
+  gap: 100px;
+}
+
+
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  padding-top: 204px;
+  height: 100px;
+}
+
+
+.menu-contacts_footer {
+  padding-left: 48px;
+  font-size: 19px;
+  margin-top: -10px;
+}
+
+.navigation-footer {
+  display: flex;
+  text-wrap: nowrap;
+  text-align: center;
+}
+.footer__social-list {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-left: 184px;
+}
+
+.footer__social-icon {
+  width: 49%;
+}
+
+
+.footer__menu-link_active {
+  display: block;
+  height: 5px;
+  width: 96px;
+  border-bottom: 0px solid;
+  
+}
+
+
+.footer__menu-list-item {
+  
+  list-style-type: none;
+}
+
+.footer__menu-list {
+  font-size: 18px;
+}
+
+
+.footer__menu-list-items {
+  border-bottom: 1px solid;
+}
