@@ -17,6 +17,11 @@
   margin-left: 10px;
 }
 
+
+.header-link {
+  text-decoration: none;
+  border-bottom: 0px;
+}
 .cover {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
@@ -381,3 +386,8 @@ a {
 .footer__menu-list-items {
   border-bottom: 1px solid;
 }
+
+
+
+
+
