@@ -81,7 +81,6 @@
 
 .overlay-div {
   background-image: url(../images/cover.jpg);
-  background-size: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -142,9 +141,8 @@
 .aligned_text-right {
   text-align: end;
   color: rgb(255, 255, 255);
-  font-size: 68px;
   letter-spacing: 26px;
-  padding-top: 14px;
+  padding-top: 12px;
   padding-bottom: 7px;
   padding-right: 23px;
   font-size: 104px;
@@ -195,7 +193,6 @@
   justify-content: space-between;
   padding: 51px 40px 48px;
   height: 100%;
-  background-size: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.6);
