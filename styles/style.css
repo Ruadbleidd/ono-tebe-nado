@@ -116,7 +116,6 @@
   font-weight: 700;
   text-align: start;
   letter-spacing: 29px;
-  text-transform: uppercase;
 }
 
 .span_space-o {
@@ -131,9 +130,9 @@
 
 .aligned_text-center {
   padding-bottom: 3px;
-  padding-right: 80px;
+  padding-right: 81px;
   color: rgb(255, 255, 255);
-  padding-top: 16px;
+  padding-top: 17px;
   letter-spacing: 28px;
   text-align: center;
 }
