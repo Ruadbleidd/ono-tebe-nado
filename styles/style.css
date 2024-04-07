@@ -110,12 +110,13 @@
 
 .cover_title {
   color: white;
-  padding-top: 163px;
-  font-size: 101px;
+  padding-top: 162px;
+  font-size: 102px;
   padding-left: 49px;
   font-weight: 700;
   text-align: start;
   letter-spacing: 29px;
+  text-transform: uppercase;
 }
 
 .span_space-o {
@@ -133,7 +134,6 @@
   padding-right: 80px;
   color: rgb(255, 255, 255);
   padding-top: 16px;
-  font-size: 103px;
   letter-spacing: 28px;
   text-align: center;
 }
@@ -141,11 +141,10 @@
 .aligned_text-right {
   text-align: end;
   color: rgb(255, 255, 255);
-  letter-spacing: 26px;
-  padding-top: 12px;
+  letter-spacing: 28px;
+  padding-top: 16px;
   padding-bottom: 7px;
   padding-right: 23px;
-  font-size: 104px;
 }
 
 .bet-button {
@@ -167,7 +166,7 @@
   letter-spacing: 10px;
 }
 .span_space-н-right {
-  padding-right: 33px;
+  padding-right: 30px;
 }
 .span_space-do {
   letter-spacing: 0;
@@ -204,9 +203,10 @@
   flex-wrap: wrap;
   gap: 25px;
   list-style: none;
-  padding-top: 23px;
+  padding-top: 24px;
   flex-grow: 1;
 }
+
 
 .card__text {
   color: #fff;
@@ -229,6 +229,7 @@
   padding-top: 2px;
   width: 334px;
   flex-grow: 1;
+  min-height: 563px;
 }
 .card-link {
   text-decoration: none;
